@@ -5,7 +5,8 @@ if (window.parent != window) {
   window.top.location.href = document.location;
 }
 
-var pE_args = window.bandeau_ENT = { current: "accueil", delegateAuth: true, layout_url: 'test/layout.jsonp' };
+var pE_args = window.bandeau_ENT = { current: "accueil", delegateAuth: true };
+//pE_args.layout_url = 'test/layout.jsonp';
 
 var pE, h, latestTopApps, tags, tries;
 var searchWordsReg = [];
